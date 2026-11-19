@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_header" />
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/gutter"
+        android:layout_marginEnd="@dimen/gutter"
+        android:autofillHints=""
+        android:background="@drawable/bg_input"
+        android:drawablePadding="8dp"
+        android:hint="@string/search_hint"
+        android:inputType="text"
+        android:padding="14dp"
+        android:textSize="14sp" />
+
+    <TextView
+        style="@style/Diar.Section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/gutter"
+        android:text="@string/quick_filters" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/gutter"
+        android:paddingEnd="@dimen/gutter"
+        android:clipToPadding="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/f_family"
+                style="@style/Diar.Pill"
+                android:text="@string/f_family" />
+
+            <CheckBox
+                android:id="@+id/f_riyadh"
+                style="@style/Diar.Pill"
+                android:text="@string/city_riyadh" />
+
+            <CheckBox
+                android:id="@+id/f_alula"
+                style="@style/Diar.Pill"
+                android:text="@string/city_alula" />
+
+            <CheckBox
+                android:id="@+id/f_abha"
+                style="@style/Diar.Pill"
+                android:text="@string/city_abha" />
+
+            <CheckBox
+                android:id="@+id/f_cheap"
+                style="@style/Diar.Pill"
+                android:text="@string/f_cheap" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/result_count"
+        style="@style/Diar.Muted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/gutter"
+        android:layout_marginTop="12dp" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/line"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="24dp"
+        android:text="@string/no_results"
+        android:textColor="@color/muted"
+        android:visibility="gone" />
+
+    <include layout="@layout/view_bottom_nav" />
+</LinearLayout>

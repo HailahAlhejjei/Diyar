@@ -1,0 +1,15 @@
+<resources>
+    <!-- ثيم فاتح ثابت بألوان دِيار: رملي، أخضر داكن، ذهبي -->
+    <style name="Base.Theme.Diar" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="android:windowBackground">@color/page</item>
+        <item name="android:fontFamily">@font/alexandria</item>
+        <item name="fontFamily">@font/alexandria</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.Diar" parent="Base.Theme.Diar" />
+</resources>

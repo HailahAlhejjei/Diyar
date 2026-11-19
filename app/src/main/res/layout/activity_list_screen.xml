@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- تخطيط مشترك لشاشات القوائم: عنوان + نص فرعي + قائمة + زر اختياري + شريط سفلي اختياري -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_header" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        style="@style/Diar.Muted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/gutter"
+        android:layout_marginEnd="@dimen/gutter"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <!-- مكان للعناصر الإضافية أعلى القائمة (بحث، فلاتر، بطاقة) -->
+    <LinearLayout
+        android:id="@+id/top_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/line"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="24dp"
+        android:textColor="@color/muted"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/btn_bottom"
+        style="@style/Diar.Button"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/gutter"
+        android:layout_marginEnd="@dimen/gutter"
+        android:layout_marginBottom="12dp"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/bottom_nav"
+        layout="@layout/view_bottom_nav"
+        android:visibility="gone" />
+</LinearLayout>

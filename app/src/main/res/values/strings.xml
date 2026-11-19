@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">دِيار</string>
+    <string name="brand">دِيار</string>
+
+    <!-- عام -->
+    <string name="back">رجوع</string>
+    <string name="next">التالي</string>
+    <string name="skip">تخطي</string>
+    <string name="confirm">تأكيد</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="ok">حسناً</string>
+    <string name="or">أو</string>
+    <string name="total">الإجمالي</string>
+    <string name="no_map_app">لا يوجد تطبيق خرائط على الجهاز</string>
+
+    <!-- الشريط السفلي -->
+    <string name="nav_home">⌂\nاكتشف</string>
+    <string name="nav_search">⌕\nبحث</string>
+    <string name="nav_trips">▣\nرحلاتي</string>
+    <string name="nav_profile">◉\nحسابي</string>
+
+    <!-- البداية -->
+    <string name="onb_title_1">المملكة…\nأقرب مما تتخيل</string>
+    <string name="onb_body_1">اكتشف وجهات استثنائية، واصنع رحلتك كما تحب.</string>
+    <string name="onb_title_2">لكل ديرة حكاية تُعاش</string>
+    <string name="onb_body_2">اختر تجاربك المفضلة من الطبيعة والتراث والمغامرات.</string>
+    <string name="onb_title_3">خطّط رحلتك على طريقتك</string>
+    <string name="onb_body_3">احفظ الأماكن، رتّب يومك، واحجز تجارب لا تُنسى.</string>
+    <string name="start_journey">ابدأ رحلتك</string>
+
+    <!-- الدخول -->
+    <string name="login_tagline">كل ديرة لها حكاية تستحق أن تعيشها</string>
+    <string name="continue_phone">المتابعة برقم الجوال</string>
+    <string name="continue_guest">المتابعة كضيف</string>
+    <string name="login_terms">بالمتابعة، أنت توافق على الشروط وسياسة الخصوصية</string>
+    <string name="hint_name">الاسم</string>
+    <string name="hint_phone">رقم الجوال (05xxxxxxxx)</string>
+    <string name="err_name">اكتب اسمك</string>
+    <string name="err_phone">رقم الجوال يجب أن يكون ١٠ أرقام ويبدأ بـ 05</string>
+    <string name="guest">ضيف</string>
+    <string name="welcome">أهلاً %1$s</string>
+
+    <!-- الرئيسية -->
+    <string name="home_question">وين ودك تروح اليوم؟</string>
+    <string name="search_hint">⌕  ابحث عن مدينة أو تجربة</string>
+    <string name="week_pick">وجهة الأسبوع</string>
+    <string name="week_title">العُلا… حيث يلتقي الزمن بالجمال</string>
+    <string name="week_sub">الحِجر، البلدة القديمة، ورصد النجوم</string>
+    <string name="destinations">الوجهات</string>
+    <string name="city_riyadh">الرياض</string>
+    <string name="city_alula">العُلا</string>
+    <string name="city_abha">أبها</string>
+    <string name="mood_title">اختر مزاج رحلتك</string>
+    <string name="mood_all">الكل</string>
+    <string name="mood_adventure">مغامرة</string>
+    <string name="mood_relax">استرخاء</string>
+    <string name="mood_culture">ثقافة</string>
+
+    <!-- البحث -->
+    <string name="search_title">استكشف المملكة</string>
+    <string name="quick_filters">فلاتر سريعة</string>
+    <string name="f_family">العائلات</string>
+    <string name="f_cheap">أقل من ١٠٠ ر.س</string>
+    <string name="no_results">ما لقينا تجربة تطابق بحثك. جرّب كلمة ثانية أو شيل بعض الفلاتر.</string>
+
+    <!-- الوجهة والتجارب -->
+    <string name="tab_overview">نظرة عامة</string>
+    <string name="tab_experiences">تجارب</string>
+    <string name="tab_nearby">أماكن قريبة</string>
+    <string name="dont_miss">لا تفوتك</string>
+    <string name="show_on_map">اعرض على الخريطة</string>
+    <string name="experiences_sub">تجارب قابلة للحجز بأسعارها الحالية</string>
+    <string name="nearby_only_riyadh">الخدمات القريبة متاحة حالياً حول حي الطريف في الرياض</string>
+
+    <!-- الخدمات القريبة -->
+    <string name="nearby_title">حولك الآن</string>
+    <string name="nearby_hint">اضغط على أي مكان لفتحه في الخرائط</string>
+    <string name="bujairi">مطل البجيري</string>
+    <string name="bujairi_sub">الدرعية · بجوار حي الطريف</string>
+    <string name="restaurants">مطاعم</string>
+    <string name="parking">مواقف</string>
+
+    <!-- الخريطة -->
+    <string name="map_title">الخريطة</string>
+    <string name="map_hint">اضغط على أي تجربة لفتح موقعها في تطبيق الخرائط</string>
+    <string name="open_in_maps">⌖ افتح الموقع في الخرائط</string>
+
+    <!-- المحفوظات -->
+    <string name="saved_title">محفوظاتي</string>
+    <string name="saved_hint">اضغط مطولاً على أي مكان لخيارات إضافية</string>
+    <string name="saved_empty">ما حفظت أي مكان بعد. اضغط ♡ في صفحة أي تجربة.</string>
+    <string name="saved_added">تمت الإضافة إلى محفوظاتك</string>
+    <string name="saved_removed">تمت الإزالة من محفوظاتك</string>
+    <string name="ctx_book">احجز الآن</string>
+    <string name="ctx_map">افتح في الخرائط</string>
+    <string name="ctx_remove">إزالة من المحفوظات</string>
+
+    <!-- الرحلة -->
+    <string name="trip_title">رحلتي</string>
+    <string name="trip_add">+ أضف تجربة إلى رحلتك</string>
+    <string name="trip_added">تمت الإضافة إلى رحلتك</string>
+    <string name="trip_empty">رحلتك فاضية. أضف تجربة أو احجز وحدة.</string>
+    <string name="trip_none">لا توجد خطط بعد</string>
+    <string name="trip_none_sub">ابدأ بإضافة تجربة لأي يوم</string>
+    <string name="ctx_trip_delete">حذف من الرحلة</string>
+
+    <!-- الحجز -->
+    <string name="pick_date">اختر التاريخ</string>
+    <string name="tap_pick_date">📅  اضغط لاختيار التاريخ</string>
+    <string name="pick_period">الفترة المفضلة</string>
+    <string name="morning">صباحاً</string>
+    <string name="noon">ظهراً</string>
+    <string name="evening">مساءً</string>
+    <string name="people">العدد</string>
+    <string name="adults">البالغون</string>
+    <string name="vehicles">عدد السيارات</string>
+    <string name="children">الأطفال</string>
+    <string name="err_date">اختر التاريخ أولاً</string>
+    <string name="not_available">هذه التجربة غير متاحة للحجز حالياً</string>
+
+    <!-- الدفع -->
+    <string name="pay_title">الدفع</string>
+    <string name="pay_method">اختر طريقة الدفع</string>
+    <string name="m_card">بطاقة مدى / فيزا</string>
+    <string name="m_stc">STC Pay</string>
+    <string name="pay_details">تفاصيل المبلغ</string>
+    <string name="demo_payment">ⓘ دفع تجريبي: لا يتم خصم أي مبلغ ولا يتم إرسال أي بيانات.</string>
+    <string name="pay_terms">إتمام الدفع يعني موافقتك على سياسة الإلغاء.</string>
+    <string name="pay_confirm_title">تأكيد الدفع</string>
+    <string name="pay_yes">ادفع</string>
+
+    <!-- التذكرة -->
+    <string name="ticket_title">تم الحجز بنجاح</string>
+    <string name="ticket_ready">استعد لتجربة لا تُنسى</string>
+    <string name="ticket_sub">اعرض رمز الحجز عند نقطة التجمع</string>
+    <string name="add_to_trip">إضافة إلى رحلتي</string>
+    <string name="in_trip">مضافة في رحلتك · عرض الرحلة</string>
+    <string name="share_ticket">مشاركة التذكرة</string>
+    <string name="back_home">العودة للرئيسية</string>
+
+    <!-- التنبيهات -->
+    <string name="notices_title">التنبيهات</string>
+    <string name="mark_all_read">تحديد الكل مقروء</string>
+    <string name="notices_empty">ما فيه تنبيهات حالياً</string>
+    <string name="notify_channel">الحجوزات</string>
+    <string name="notify_booked_title">تم تأكيد حجزك ✓</string>
+
+    <!-- الحساب -->
+    <string name="profile_title">حسابي</string>
+    <string name="guest_account">حساب ضيف</string>
+    <string name="stat_saved">مكان محفوظ</string>
+    <string name="stat_bookings">حجوزات</string>
+    <string name="row_trip">▣  رحلاتي القادمة</string>
+    <string name="row_saved">♥  قائمتي المفضلة</string>
+    <string name="row_name">✎  تعديل الاسم</string>
+    <string name="row_logout">تسجيل الخروج</string>
+    <string name="logout_msg">بتطلع من حسابك. محفوظاتك وحجوزاتك تبقى على الجهاز.</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="prefs_section">التفضيلات</string>
+    <string name="app_language">لغة التطبيق</string>
+    <string name="arabic">العربية</string>
+    <string name="currency">العملة</string>
+    <string name="sar">ريال سعودي</string>
+    <string name="notify_mode">الإشعارات</string>
+    <string name="privacy_section">الخصوصية والحساب</string>
+    <string name="manage_data">إدارة بياناتي</string>
+    <string name="clear_data">حذف البيانات</string>
+    <string name="clear_data_msg">بيتم حذف المحفوظات والحجوزات والرحلة والتنبيهات من هذا الجهاز.</string>
+    <string name="data_cleared">تم حذف بياناتك</string>
+    <string name="help">الدعم والمساعدة</string>
+    <string name="help_msg">لحجز تجربة: اختر التجربة، ثم التاريخ والعدد، ثم طريقة الدفع.\n\nالحجز والدفع في هذا التطبيق تجريبيان لأغراض المشروع.</string>
+    <string name="about">عن دِيار</string>
+    <string name="version_line">دِيار ١.٠ · صُنع بحب للمملكة</string>
+</resources>
